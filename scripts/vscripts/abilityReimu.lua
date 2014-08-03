@@ -168,7 +168,7 @@ function AbilityReimu:OnReimu02Start(keys)
 	for i = 0,abilitylevel+4 do
 		local veccre = Vector(vec0.x + math.cos(0.628 * i) * 60 ,vec0.y + math.sin(0.628 * i) * 60 ,300)
 		self.tReimu02Light[i].Head.unit = CreateUnitByName(
-			"npc_dota2x_unit_reimu01_ball"
+			"npc_dota2x_unit_reimu02_light"
 			,vec0
 			,false
 			,caster
